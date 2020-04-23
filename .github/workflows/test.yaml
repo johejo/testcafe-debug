@@ -12,4 +12,4 @@ jobs:
         with:
           node-version: '14.x'
       - run: npm ci
-      - run: npx testcafe chrome ./test.js
+      - run: npx testcafe chrome:headless ./test.js
